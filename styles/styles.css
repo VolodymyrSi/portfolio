@@ -32,7 +32,7 @@ header {
 }
 
 .siteLogo {
-    height: 100px;
+    height: 5em;
     width: auto;
     display: inline-block;
 }
@@ -150,4 +150,33 @@ header nav li {
   .button:hover {
     background-position: 0 -100%;
     cursor: pointer;
+  }
+
+
+  /* Button to go up */
+
+  .arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4em solid transparent;
+    border-right: 4em solid transparent;
+    border-bottom: 3.464em solid #625772;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+.arrow-up p:hover {
+    cursor: pointer;
+    color: darkcyan;
+    font-size: larger;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+}
+
+  .arrow-up p {
+      color:cornsilk;
+
   }

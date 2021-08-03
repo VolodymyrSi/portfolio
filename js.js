@@ -14,6 +14,16 @@ function displayList () {
     })
 }
 
+// Arrow up
+
+function goUp () {
+    let el = document.getElementById('up')
+    el.addEventListener('click', function (){
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    })
+}
+
 window.onload = function() {
     displayList();
+    goUp();
 }
