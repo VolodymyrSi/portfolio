@@ -24,3 +24,24 @@ header nav li {
     display: inline;
     padding-left: 1em;
 }
+
+/* Section 1 - introduction */
+
+.introduction{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pictureOfMe {
+    height: 400px;
+    border-radius: 30px;
+}
+
+.textAboutMe {
+    width: 40em;
+}
+
+.textAboutMe h2, .textAboutMe h4 {
+    text-align: center;
+}
