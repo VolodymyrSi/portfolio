@@ -45,3 +45,21 @@ header nav li {
 .textAboutMe h2, .textAboutMe h4 {
     text-align: center;
 }
+
+/* Section 2 - Portfolio */
+
+.portfolio h2 {
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.project1, .project2, .project3 {
+    height: 20em;
+    width: 15em;
+    background-color: blueviolet;
+}
