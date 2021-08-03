@@ -1,3 +1,23 @@
+/* fonts */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    Font-Family: 'Roboto', Sans-Serif;
+}
+
+a,
+p,
+li {
+    Font-Family: 'Lora', Serif;
+}
+
+body {
+    background-color: #CDCDCD;
+}
 /* header */
 
 header {
@@ -6,6 +26,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #625772;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .siteLogo {
