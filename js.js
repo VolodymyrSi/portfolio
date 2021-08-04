@@ -25,7 +25,7 @@ function goUp () {
 
 
 function clicked () {
-    let el = document.getElementById('contactMeButton')
+    let el = document.getElementById('contactMeButton');
     el.addEventListener('mousedown', function() {
             el.style.height='2.8em';
             el.style.width='2.8em';
@@ -36,8 +36,19 @@ function clicked () {
     })
 }
 
+
+function magicalPops() {
+    let el = document.getElementById('contactMeButton');
+    el.addEventListener('click', function(){
+        let item1 = document.getElementById('slide-tr');
+        item1.classList.add('slide-tr');
+    })
+}
+
+
 window.onload = function() {
     displayList();
     goUp();
-    clicked()
+    clicked();
+    magicalPops();
 }

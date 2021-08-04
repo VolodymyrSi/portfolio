@@ -206,15 +206,39 @@ header nav li {
 .contactContainer {
       position: fixed;
       height: 15em;
-      top: 35%;
-      left: 5%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
+      top: 50%;
+      left: 2%;
+      display: grid;
+      grid-template-columns: 1em;
+      grid-template-rows: 1em;
       /* display: none; */
 }
 
-.contactContainer img {
+.contactContainer a {
       height: 1.5em;
       width: 1.5em;
+      grid-area: 1 / 1 / 1 / 1;
 }
+
+.contactContainer img {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+
+/* slides */
+
+.slide-tr {animation:slide-tr .5s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes slide-tr{0%{transform:translateY(0) translateX(0)}100%{transform:translateY(-100px) translateX(100px)}}
+
+.slide-right{animation:slide-right .5s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes slide-right{0%{transform:translateX(0)}100%{transform:translateX(100px)}}
+
+.slide-br{animation:slide-br .5s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes slide-br{0%{transform:translateY(0) translateX(0)}100%{transform:translateY(100px) translateX(100px)}}
+
+.slide-ttr {animation:slide-ttr .5s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes slide-ttr{0%{transform:translateY(0) translateX(0)}100%{transform:translateY(-50px) translateX(100px)}}
+
+.slide-bbr{animation:slide-bbr .5s cubic-bezier(.25,.46,.45,.94) both}
+@keyframes slide-bbr{0%{transform:translateY(0) translateX(0)}100%{transform:translateY(50px) translateX(100px)}}
