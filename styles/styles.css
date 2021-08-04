@@ -180,3 +180,18 @@ header nav li {
       color:cornsilk;
 
   }
+
+
+  /* contact me button */
+
+  .contactMeButton {
+      position: fixed;
+      top: 50%;
+      background-image: url('../resources/email.png');
+      background-size: contain ;
+      /* background-color: white; */
+      height: 3em;
+      width: 3em;
+      cursor:pointer;
+      z-index: 3;
+  }
