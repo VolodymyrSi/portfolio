@@ -147,15 +147,15 @@ header nav li {
     -webkit-transition: background-position .3s;
     transition: background-position .3s;
   }
-  .button:hover {
+.button:hover {
     background-position: 0 -100%;
     cursor: pointer;
-  }
+}
 
 
   /* Button to go up */
 
-  .arrow-up {
+.arrow-up {
     width: 0; 
     height: 0; 
     border-left: 4em solid transparent;
@@ -166,7 +166,7 @@ header nav li {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-  }
+}
 
 .arrow-up p:hover {
     cursor: pointer;
@@ -176,15 +176,15 @@ header nav li {
     transition-duration: 0.2s;
 }
 
-  .arrow-up p {
+.arrow-up p {
       color:cornsilk;
 
-  }
+}
 
 
   /* contact me button */
 
-  .contactMeButton {
+.contactMeButton {
       position: fixed;
       top: 50%;
       background-image: url('../resources/email.png');
@@ -194,9 +194,27 @@ header nav li {
       cursor:pointer;
       z-index: 3;
       margin-left: 0.5em;
-  }
+}
 
-  .contactMeButton:hover{
-      background-color: #625772;
-      border-radius: 1.45em;
-  }
+.contactMeButton:hover{
+    background-color: #625772;
+    border-radius: 1.45em;
+}
+
+  /* contact container */
+
+.contactContainer {
+      position: fixed;
+      height: 15em;
+      top: 35%;
+      left: 5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      /* display: none; */
+}
+
+.contactContainer img {
+      height: 1.5em;
+      width: 1.5em;
+}
