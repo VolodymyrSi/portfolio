@@ -23,7 +23,23 @@ function goUp () {
     })
 }
 
+
+function clicked () {
+    let el = document.getElementById('contactMeButton')
+    let isclicked = false;
+    el.addEventListener('mousedown', function() {
+            el.style.height='2.8em';
+            el.style.width='2.8em';
+            isclicked = true;
+    })
+    el.addEventListener('mouseup', function() {
+        el.style.height='3em';
+        el.style.width='3em';
+    })
+}
+
 window.onload = function() {
     displayList();
     goUp();
+    clicked()
 }

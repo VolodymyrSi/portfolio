@@ -189,9 +189,14 @@ header nav li {
       top: 50%;
       background-image: url('../resources/email.png');
       background-size: contain ;
-      /* background-color: white; */
       height: 3em;
       width: 3em;
       cursor:pointer;
       z-index: 3;
+      margin-left: 0.5em;
+  }
+
+  .contactMeButton:hover{
+      background-color: #625772;
+      border-radius: 1.45em;
   }
