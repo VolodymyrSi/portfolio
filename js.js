@@ -8,7 +8,6 @@ function displayList () {
             isVisible = false;
         } else {
             list.style.display = 'block';
-            window.scrollTo(0, document.body.scrollHeight)
             isVisible = true;
         }
     })
@@ -87,4 +86,4 @@ window.onload = function() {
     magicalPops();
 }
 
-// new comment for fun
+// new comment for
