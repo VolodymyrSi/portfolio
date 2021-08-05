@@ -39,17 +39,43 @@ function clicked () {
 
 function magicalPops() {
     let el = document.getElementById('contactMeButton');
+    let isVisible = false
     el.addEventListener('click', function(){
-        let item1 = document.getElementById('slide-tr');
-        item1.classList.add('slide-tr');
-        let item2 = document.getElementById('slide-ttr');
-        item2.classList.add('slide-ttr');
-        let item3 = document.getElementById('slide-right');
-        item3.classList.add('slide-right');
-        let item4 = document.getElementById('slide-bbr');
-        item4.classList.add('slide-bbr');
-        let item5 = document.getElementById('slide-br');
-        item5.classList.add('slide-br');
+        if (isVisible === false) {
+            let item1 = document.getElementById('slide-tr');
+            item1.classList.add('slide-tr');
+            item1.classList.remove('slide-tr-back')
+            let item2 = document.getElementById('slide-ttr');
+            item2.classList.add('slide-ttr');
+            item2.classList.remove('slide-ttr-back');
+            let item3 = document.getElementById('slide-right');
+            item3.classList.add('slide-right');
+            item3.classList.remove('slide-right-back');
+            let item4 = document.getElementById('slide-bbr');
+            item4.classList.add('slide-bbr');
+            item4.classList.remove('slide-bbr-back');
+            let item5 = document.getElementById('slide-br');
+            item5.classList.add('slide-br');
+            item5.classList.remove('slide-br-back');
+            isVisible = true
+        } else {
+            let item1 = document.getElementById('slide-tr');
+            item1.classList.remove('slide-tr');
+            item1.classList.add('slide-tr-back');
+            let item2 = document.getElementById('slide-ttr');
+            item2.classList.remove('slide-ttr');
+            item2.classList.add('slide-ttr-back');
+            let item3 = document.getElementById('slide-right');
+            item3.classList.remove('slide-right');
+            item3.classList.add('slide-right-back');
+            let item4 = document.getElementById('slide-bbr');
+            item4.classList.remove('slide-bbr');
+            item4.classList.add('slide-bbr-back');
+            let item5 = document.getElementById('slide-br');
+            item5.classList.remove('slide-br');
+            item5.classList.add('slide-br-back');
+            isVisible = false
+        }
     })
 }
 
