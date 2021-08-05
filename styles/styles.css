@@ -18,6 +18,16 @@ li {
 body {
   background-color: #cdcdcd;
 }
+
+section:not(:first-of-type) {
+  margin-top: 3em;
+}
+
+h2 {
+  margin:2em 0;
+}
+
+
 /* header */
 
 header {
@@ -29,6 +39,7 @@ header {
   background-color: #625772;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  z-index: 7;
 }
 
 .siteLogo {
@@ -62,11 +73,11 @@ header nav li a:hover {
 .introduction {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  height: 25em;
+  align-items: flex-start;
 }
 
 .pictureOfMe {
+  margin-top: 2em;
   height: 15em;
   border-radius: 30px;
 }
@@ -105,9 +116,15 @@ header nav li a:hover {
 
 /* Section 3 - About */
 
+
+
 .about h2,
 .about h3 {
   text-align: center;
+}
+
+.technology {
+  margin: 2em 0;
 }
 
 .about .button {
@@ -232,4 +249,3 @@ header nav li a:hover {
   height: 1.5em;
   width: 1.5em;
 }
-
