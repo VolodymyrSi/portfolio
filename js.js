@@ -42,6 +42,14 @@ function magicalPops() {
     el.addEventListener('click', function(){
         let item1 = document.getElementById('slide-tr');
         item1.classList.add('slide-tr');
+        let item2 = document.getElementById('slide-ttr');
+        item2.classList.add('slide-ttr');
+        let item3 = document.getElementById('slide-right');
+        item3.classList.add('slide-right');
+        let item4 = document.getElementById('slide-bbr');
+        item4.classList.add('slide-bbr');
+        let item5 = document.getElementById('slide-br');
+        item5.classList.add('slide-br');
     })
 }
 
