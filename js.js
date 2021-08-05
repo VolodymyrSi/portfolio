@@ -86,3 +86,5 @@ window.onload = function() {
     clicked();
     magicalPops();
 }
+
+// new comment for fun
