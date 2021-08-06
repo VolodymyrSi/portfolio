@@ -113,19 +113,43 @@ header nav li a:hover {
   text-align: center;
 }
 
-.projects {
+.projects_container {
   display: flex;
   justify-content: space-around;
 }
 
-.project1,
-.project2,
-.project3 {
+.project1pic,
+.project2pic,
+.project3pic {
   height: 20em;
   width: 15em;
-  background-color: blueviolet;
+  border-radius: 1em;
 }
 
+.project1pic {
+  background: linear-gradient(to right, darkviolet, deeppink);
+
+}
+
+.project2pic {
+  background: linear-gradient(darkviolet, deeppink);
+
+}
+
+.project3pic {
+  background: linear-gradient(to left, darkviolet, deeppink);
+
+}
+
+.project_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project_item p {
+  margin-top: 2em;
+}
 /* Section 3 - About */
 
 
@@ -134,9 +158,6 @@ header nav li a:hover {
   text-align: center;
 }
 
-.technology {
-  margin: 2em 0;
-}
 
 .about .button {
   position: relative;
@@ -149,8 +170,7 @@ header nav li a:hover {
 
 .technology {
   display: flex;
-  padding-left: 10em;
-  padding-right: 10em;
+  padding: 2em 10em;
   justify-content: space-around;
 }
 
