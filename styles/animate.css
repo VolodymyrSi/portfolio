@@ -1,0 +1,126 @@
+/* slides */
+
+.slide-tr {
+    animation: slide-tr 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @keyframes slide-tr {
+    0% {
+      transform: translateY(0) translateX(0);
+    }
+    100% {
+      transform: translateY(-100px) translateX(100px);
+    }
+  }
+  
+  .slide-right {
+    animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @keyframes slide-right {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100px);
+    }
+  }
+  
+  .slide-br {
+    animation: slide-br 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @keyframes slide-br {
+    0% {
+      transform: translateY(0) translateX(0);
+    }
+    100% {
+      transform: translateY(100px) translateX(100px);
+    }
+  }
+  
+  .slide-ttr {
+    animation: slide-ttr 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @keyframes slide-ttr {
+    0% {
+      transform: translateY(0) translateX(0);
+    }
+    100% {
+      transform: translateY(-50px) translateX(100px);
+    }
+  }
+  
+  .slide-bbr {
+    animation: slide-bbr 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @keyframes slide-bbr {
+    0% {
+      transform: translateY(0) translateX(0);
+    }
+    100% {
+      transform: translateY(50px) translateX(100px);
+    }
+  }
+  
+  
+  /* reverse animations */
+  
+  .slide-tr-back {
+    animation: slide-tr-back 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @keyframes slide-tr-back {
+    0% {
+      transform: translateY(-100px) translateX(100px);
+    }
+    100% {
+      transform: translateY(0) translateX(0);
+    }
+  }
+  
+  .slide-right-back {
+      animation: slide-right-back 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    }
+    @keyframes slide-right-back {
+      0% {
+        transform: translateX(100px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    
+    .slide-br-back {
+      animation: slide-br-back 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    }
+    @keyframes slide-br-back {
+      0% {
+        transform: translateY(100px) translateX(100px);
+      }
+      100% {
+        transform: translateY(0) translateX(0);
+      }
+    }
+    
+    .slide-ttr-back {
+      animation: slide-ttr-back 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    }
+    @keyframes slide-ttr-back {
+      0% {
+        transform: translateY(-50px) translateX(100px);
+      }
+      100% {
+        transform: translateY(0) translateX(0);
+      }
+    }
+    
+    .slide-bbr-back {
+      animation: slide-bbr-back 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    }
+    @keyframes slide-bbr-back {
+      0% {
+        transform: translateY(50px) translateX(100px);
+      }
+      100% {
+        transform: translateY(0) translateX(0);
+      }
+    }
+    
+    
