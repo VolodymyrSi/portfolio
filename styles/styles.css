@@ -20,7 +20,7 @@ body {
 }
 
 section:not(:first-of-type) {
-  margin-top: 3em;
+  margin: 5em 0 ;
 }
 
 h2 {
@@ -73,7 +73,7 @@ header nav li a:hover {
 .anchor a {
   position: absolute;
   left: 0px;
-  top: -4.1em;
+  top: -6em;
 }
 
 .anchor {
@@ -127,7 +127,6 @@ header nav li a:hover {
 }
 
 /* Section 3 - About */
-
 
 
 .about h2,
@@ -231,6 +230,8 @@ header nav li a:hover {
   cursor: pointer;
   z-index: 3;
   margin-left: 0.5em;
+  background-color: #cdcdcd;
+  border-radius: 50%;
 }
 
 .contactMeButton:hover {
@@ -243,8 +244,8 @@ header nav li a:hover {
 .contactContainer {
   position: fixed;
   height: 15em;
-  top: 50%;
-  left: 2%;
+  top: 51.5%;
+  left: 1.5%;
   display: grid;
   grid-template-columns: 1em;
   grid-template-rows: 1em;
