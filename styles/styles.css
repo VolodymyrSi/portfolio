@@ -24,9 +24,8 @@ section:not(:first-of-type) {
 }
 
 h2 {
-  margin:2em 0;
+  margin: 2em 0;
 }
-
 
 /* header */
 
@@ -115,8 +114,6 @@ header nav li a:hover {
 }
 
 /* Section 3 - About */
-
-
 
 .about h2,
 .about h3 {

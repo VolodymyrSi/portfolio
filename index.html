@@ -1,88 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/animate.css">
-    <link href="https://fonts.googleapis.com/css?family=Lora|Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/animate.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora|Roboto:400,700"
+      rel="stylesheet"
+    />
     <script src="./js.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!-- logo goes here: -->
-        <img class="siteLogo" src="./resources/logo.png" alt="website logo">
-        <!-- 3 menu buttons go here -->
-        <nav>
-            <ul>
-                <li><a href="#textAboutMe" id='home'>Home</a></li>
-                <li><a href="#portfolio" >Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
-        </nav>
+      <!-- logo goes here: -->
+      <img class="siteLogo" src="./resources/logo.png" alt="website logo" />
+      <!-- 3 menu buttons go here -->
+      <nav>
+        <ul>
+          <li><a href="#textAboutMe" id="home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <!-- FED in Kyiv -->
-        <section class="introduction">
-            <img class="pictureOfMe" src="./resources/dev_photo.jpg" alt="your developer">
-            <article class="textAboutMe" id='textAboutMe'>
-                <h2>Hi, I'm Vova</h2>
-                <h4>Front-end developed based in Kyiv, Ukraine</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae feugiat augue. Quisque porttitor elit vitae mollis tempor. Pellentesque in congue arcu. Nunc eros tortor, egestas et erat eu, viverra posuere nibh. Donec vel scelerisque felis, nec lacinia lacus. Fusce condimentum neque pulvinar eros condimentum molestie. Phasellus nec nibh luctus, tincidunt arcu ut, lacinia risus. Vestibulum sit amet feugiat tellus, a feugiat dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a class="button" id="trigger">Things I love</a>
-            <div class='thingsILove'>
-                <ul class='listLove' id="list">
-                    <li>My cat</li>
-                    <li>Cycling</li>
-                    <li>Making coffee</li>
-                    <li>Playing the guitar</li>
-                    <li>One more thing</li>
-                    <li>Another thing</li>
-                </ul>
-            </div>
-            </article>
-        </section>
-        <!-- Portfolio -->
-        <section class="portfolio" id='portfolio'>
-            <h2>Portfolio</h2>
-            <div class="projects">
-                <div class='project1'>
-                    <p>  </p>
-                </div>
-                <div class='project2'>
-                    <p>  </p>
-                </div>
-                <div class='project3'>
-                    <p>  </p>
-                </div>
-            </div>
-        </section>
-        <!-- About -->
-        <section class="about" id="about">
-            <h2>Tech Stack</h2>
-            <div class="technology">
-                <img src="./resources/html logo.png" alt="HTML">
-                <img src="./resources/css logo.png" alt="CSS">
-                <img src="./resources/js logo.png" alt="Javascript">
-                <img src="./resources/Git logo.png" alt="Git">
-                <img src="./resources/gitHub logo.png" alt="GitHub">
-                <img src="./resources/visual studio logo.png" alt="Visual Studio">
-            </div>
-        </section>
-        <div class="arrow-up" id="up">
-            <p>UP</p>
+      <!-- FED in Kyiv -->
+      <section class="introduction">
+        <img
+          class="pictureOfMe"
+          src="./resources/dev_photo.jpg"
+          alt="your developer"
+        />
+        <article class="textAboutMe" id="textAboutMe">
+          <h2>Hi, I'm Vova</h2>
+          <h4>Front-end developed based in Kyiv, Ukraine</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae
+            feugiat augue. Quisque porttitor elit vitae mollis tempor.
+            Pellentesque in congue arcu. Nunc eros tortor, egestas et erat eu,
+            viverra posuere nibh. Donec vel scelerisque felis, nec lacinia
+            lacus. Fusce condimentum neque pulvinar eros condimentum molestie.
+            Phasellus nec nibh luctus, tincidunt arcu ut, lacinia risus.
+            Vestibulum sit amet feugiat tellus, a feugiat dui. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit.
+          </p>
+          <a class="button" id="trigger">Things I love</a>
+          <div class="thingsILove">
+            <ul class="listLove" id="list">
+              <li>My cat</li>
+              <li>Cycling</li>
+              <li>Making coffee</li>
+              <li>Playing the guitar</li>
+              <li>One more thing</li>
+              <li>Another thing</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+      <!-- Portfolio -->
+      <section class="portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="projects">
+          <div class="project1">
+            <p></p>
+          </div>
+          <div class="project2">
+            <p></p>
+          </div>
+          <div class="project3">
+            <p></p>
+          </div>
         </div>
-        <div class="contactMe contactMeButton" id="contactMeButton"></div>
-        <div class="contactContainer">
-            <a href="#" id="slide-tr"><img src="./resources/contact/telegram-icon.svg" alt="telegram"></a>
-            <a href="" id="slide-ttr"><img src="./resources/contact/linkedin-icon.svg" alt="linkedin"></a>
-            <a href="" id="slide-right"><img src="./resources/contact/gmail_icon.svg" alt="gmail"></a>
-            <a href="" id="slide-bbr"><img src="./resources/contact/facebook-icon.svg" alt="facebook"></a>
-            <a href="#" id="slide-br"><img src="./resources/contact/github-icon.svg" alt="github"></a>
+      </section>
+      <!-- About -->
+      <section class="about" id="about">
+        <h2>Tech Stack</h2>
+        <div class="technology">
+          <img src="./resources/html logo.png" alt="HTML" />
+          <img src="./resources/css logo.png" alt="CSS" />
+          <img src="./resources/js logo.png" alt="Javascript" />
+          <img src="./resources/Git logo.png" alt="Git" />
+          <img src="./resources/gitHub logo.png" alt="GitHub" />
+          <img src="./resources/visual studio logo.png" alt="Visual Studio" />
         </div>
+      </section>
+      <div class="arrow-up" id="up">
+        <p>UP</p>
+      </div>
+      <div class="contactMe contactMeButton" id="contactMeButton"></div>
+      <div class="contactContainer">
+        <a href="#" id="slide-tr"
+          ><img src="./resources/contact/telegram-icon.svg" alt="telegram"
+        /></a>
+        <a href="" id="slide-ttr"
+          ><img src="./resources/contact/linkedin-icon.svg" alt="linkedin"
+        /></a>
+        <a href="" id="slide-right"
+          ><img src="./resources/contact/gmail_icon.svg" alt="gmail"
+        /></a>
+        <a href="" id="slide-bbr"
+          ><img src="./resources/contact/facebook-icon.svg" alt="facebook"
+        /></a>
+        <a href="#" id="slide-br"
+          ><img src="./resources/contact/github-icon.svg" alt="github"
+        /></a>
+      </div>
     </main>
-</body>
+  </body>
 </html>
