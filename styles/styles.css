@@ -24,8 +24,9 @@ section:not(:first-of-type) {
 }
 
 h2 {
-  margin: 2em 0;
+  margin:2em 0;
 }
+
 
 /* header */
 
@@ -65,6 +66,18 @@ header nav li a {
 
 header nav li a:hover {
   background-color: darkred;
+}
+
+/* for nav with sticky heading to work */
+
+.anchor a {
+  position: absolute;
+  left: 0px;
+  top: -4.1em;
+}
+
+.anchor {
+  position: relative;
 }
 
 /* Section 1 - introduction */
@@ -114,6 +127,8 @@ header nav li a:hover {
 }
 
 /* Section 3 - About */
+
+
 
 .about h2,
 .about h3 {
@@ -246,3 +261,5 @@ header nav li a:hover {
   height: 1.5em;
   width: 1.5em;
 }
+
+
