@@ -7,12 +7,14 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", Sans-Serif;
+  color: #002627;
 }
 
 a,
 p,
 li {
   font-family: "Lora", Serif;
+  color:#002627
 }
 
 body {
@@ -150,6 +152,7 @@ header nav li a:hover {
 .project_item p {
   margin-top: 2em;
 }
+
 /* Section 3 - About */
 
 
@@ -201,7 +204,7 @@ header nav li a:hover {
   z-index: 1;
 
   /*Magic*/
-  background-image: linear-gradient(#2876b2, #549ad0);
+  background-image: linear-gradient(#8E7EA6, #BAA5D9);
   background-size: 100% 200%;
   -webkit-transition: background-position 0.3s;
   transition: background-position 0.3s;
