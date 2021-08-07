@@ -14,7 +14,7 @@ a,
 p,
 li {
   font-family: "Lora", Serif;
-  color:#002627
+  color: #002627;
 }
 
 body {
@@ -22,13 +22,17 @@ body {
 }
 
 section:not(:first-of-type) {
-  margin: 5em 0 ;
+  margin: 5em 0;
 }
 
 h2 {
-  margin:2em 0;
+  margin: 2em 0;
 }
 
+
+p {
+  line-height: 2em;
+}
 
 /* header */
 
@@ -84,6 +88,10 @@ header nav li a:hover {
 
 /* Section 1 - introduction */
 
+.textAboutMe h2 {
+  margin: 2em 0 0 0;
+}
+
 .introduction {
   display: flex;
   justify-content: space-around;
@@ -130,17 +138,14 @@ header nav li a:hover {
 
 .project1pic {
   background: linear-gradient(to right, darkviolet, deeppink);
-
 }
 
 .project2pic {
   background: linear-gradient(darkviolet, deeppink);
-
 }
 
 .project3pic {
   background: linear-gradient(to left, darkviolet, deeppink);
-
 }
 
 .project_item {
@@ -155,12 +160,10 @@ header nav li a:hover {
 
 /* Section 3 - About */
 
-
 .about h2,
 .about h3 {
   text-align: center;
 }
-
 
 .about .button {
   position: relative;
@@ -204,7 +207,7 @@ header nav li a:hover {
   z-index: 1;
 
   /*Magic*/
-  background-image: linear-gradient(#8E7EA6, #BAA5D9);
+  background-image: linear-gradient(#8e7ea6, #baa5d9);
   background-size: 100% 200%;
   -webkit-transition: background-position 0.3s;
   transition: background-position 0.3s;
@@ -285,5 +288,3 @@ header nav li a:hover {
   height: 1.5em;
   width: 1.5em;
 }
-
-
