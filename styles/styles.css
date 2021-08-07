@@ -1,4 +1,4 @@
-/* fonts */
+/* general style and fonts */
 
 h1,
 h2,
@@ -21,14 +21,10 @@ body {
   background-color: #cdcdcd;
 }
 
-section:not(:first-of-type) {
-  margin: 5em 0;
-}
-
 h2 {
   margin: 2em 0;
+  text-align: center;
 }
-
 
 p {
   line-height: 2em;
@@ -49,9 +45,8 @@ header {
 }
 
 .siteLogo {
+  /* this changes the height of the nav bar */
   height: 4em;
-  width: auto;
-  display: inline-block;
 }
 
 header nav ul {
@@ -65,6 +60,7 @@ header nav li {
 
 header nav li a {
   color: #cdcdcd;
+  /* these properties are important to display hover */
   display: inline-block;
   padding: 1.5em 1em;
   margin: 0;
@@ -99,7 +95,7 @@ header nav li a:hover {
 }
 
 .pictureOfMe {
-  margin-top: 2em;
+  margin-top: 4em;
   height: 15em;
   border-radius: 30px;
 }
@@ -107,25 +103,35 @@ header nav li a:hover {
 .textAboutMe {
   width: 40em;
 }
-/* rewire things below using css combinators */
+
 .textAboutMe h2,
 .textAboutMe h4 {
   text-align: center;
 }
 
 .textAboutMe h4 {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em 0;
 }
-/* Section 2 - Portfolio */
 
-.portfolio h2 {
-  text-align: center;
+.listLove {
+  display: none;
 }
+
+/* Section 2 - Portfolio */
 
 .projects_container {
   display: flex;
   justify-content: space-around;
+}
+
+.project_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project_item p {
+  margin-top: 2em;
 }
 
 .project1pic,
@@ -148,31 +154,7 @@ header nav li a:hover {
   background: linear-gradient(to left, darkviolet, deeppink);
 }
 
-.project_item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.project_item p {
-  margin-top: 2em;
-}
-
 /* Section 3 - About */
-
-.about h2,
-.about h3 {
-  text-align: center;
-}
-
-.about .button {
-  position: relative;
-  margin-top: 4em;
-  top: 50%;
-  left: 85%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-}
 
 .technology {
   display: flex;
@@ -182,10 +164,6 @@ header nav li a:hover {
 
 .technology img {
   height: 4em;
-}
-
-.listLove {
-  display: none;
 }
 
 /* listreveal button */
@@ -209,8 +187,8 @@ header nav li a:hover {
   /*Magic*/
   background-image: linear-gradient(#8e7ea6, #baa5d9);
   background-size: 100% 200%;
-  -webkit-transition: background-position 0.3s;
-  transition: background-position 0.3s;
+  /* -webkit-transition: background-position 0.3s;
+  transition: background-position 0.3s; */
 }
 .button:hover {
   background-position: 0 -100%;
