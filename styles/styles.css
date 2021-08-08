@@ -56,13 +56,6 @@ header {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 576px) {
-  .siteLogo{
-    max-height: 30%;
-  }
-}
-
-
 header nav ul {
   list-style: none;
   margin: 0;
@@ -94,6 +87,27 @@ header nav li a:hover {
 
 .anchor {
   position: relative;
+}
+
+
+.darkModeContainer {
+  display:flex;
+  align-items: flex-end;
+}
+
+.darkModeContainer p {
+  display: block;
+  line-height: 0;
+  color: #cdcdcd;
+}
+
+@media only screen and (max-width: 576px) {
+  .siteLogo{
+    max-height: 30%;
+  }
+  #clickTheLamp{
+    display: none;
+  }
 }
 
 /* Section 1 - introduction */

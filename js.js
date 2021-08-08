@@ -81,6 +81,7 @@ function darkMode() {
   let el = document.getElementById('logo')
   const head  = document.getElementsByTagName('head')[0];
   const link  = document.createElement('link');
+  const text = document.getElementById('clickTheLamp');
   link.rel  = 'stylesheet';
   link.type = 'text/css';
   link.href = './styles/darkmode.css';
@@ -90,6 +91,7 @@ function darkMode() {
       head.appendChild(link);
       clicked = true;
       el.src = "resources/logo_transparent.png"
+      text.style.display = "none";
     } else {
       const linkNode = document.getElementsByTagName('link')[3];
       console.log(linkNode)
