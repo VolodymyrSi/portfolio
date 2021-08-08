@@ -49,6 +49,7 @@ header {
   /* this changes the height of the nav bar */
   height: 4em;
   visibility: inherit;
+  border-bottom-left-radius: 5px;
 }
 
 .siteLogo:hover {
