@@ -3,7 +3,7 @@ function displayList() {
   let isVisible = false;
   el.addEventListener("click", function () {
     let list = document.getElementById("list");
-    if (isVisible === true) {
+    if (isVisible) {
       list.style.display = "none";
       isVisible = false;
     } else {
@@ -24,6 +24,7 @@ function goUp() {
 
 function clicked() {
   let el = document.getElementById("contactMeButton");
+  // change to css :active
   el.addEventListener("mousedown", function () {
     el.style.height = "2.8em";
     el.style.width = "2.8em";
@@ -38,7 +39,7 @@ function magicalPops() {
   let el = document.getElementById("contactMeButton");
   let isVisible = false;
   el.addEventListener("click", function () {
-    if (isVisible === false) {
+    if (!isVisible) {
       let item1 = document.getElementById("slide-tr");
       item1.classList.add("slide-tr");
       item1.classList.remove("slide-tr-back");
@@ -79,6 +80,7 @@ function magicalPops() {
 function darkMode() {
   let clicked = false;
   let el = document.getElementById("logo");
+  // try use querySelector instead of getElementsByTagName
   const head = document.getElementsByTagName("head")[0];
   const link = document.createElement("link");
   const text = document.getElementById("clickTheLamp");
@@ -87,14 +89,14 @@ function darkMode() {
   link.href = "./styles/darkmode.css";
   link.media = "all";
   el.addEventListener("click", function () {
-    if (clicked === false) {
+    if (!clicked) {
       head.appendChild(link);
       clicked = true;
       el.src = "resources/logo_transparent.png";
       text.style.display = "none";
     } else {
       let linkNode = document.getElementsByTagName("link")[4];
-      console.log(linkNode);
+      // document.querySelector('[href="./styles/darkmode.css"]');
       linkNode.parentNode.removeChild(linkNode);
       clicked = false;
       el.src = "resources/logo.png";
