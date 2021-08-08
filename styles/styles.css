@@ -50,6 +50,13 @@ header {
   height: 4em;
 }
 
+@media only screen and (max-width: 576px) {
+  .siteLogo{
+    max-height: 30%;
+  }
+}
+
+
 header nav ul {
   list-style: none;
   margin: 0;
@@ -93,6 +100,17 @@ header nav li a:hover {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+}
+
+@media only screen and (max-width: 576px) {
+  .introduction {
+    flex-direction: column;
+    align-items: center;
+  }
+  .textAboutMe {
+    min-width: 60%;
+    text-align: justify;
+  }
 }
 
 .pictureOfMe {
@@ -175,6 +193,9 @@ header nav li a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 2em;
+  }
+  .technology img {
+    padding: 0.5em;
   }
 }
 
@@ -270,6 +291,13 @@ header nav li a:hover {
   grid-template-columns: 1em;
   grid-template-rows: 1em;
   /* display: none; */
+}
+
+@media only screen and (max-width: 576px) {
+  .contactContainer{
+    top: 51.2%;
+    left: 3%;
+  }
 }
 
 .contactContainer a {
