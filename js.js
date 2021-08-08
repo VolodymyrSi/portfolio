@@ -76,9 +76,33 @@ function magicalPops() {
   });
 }
 
+function darkMode() {
+  let clicked = false;
+  let el = document.getElementById('logo')
+  const head  = document.getElementsByTagName('head')[0];
+  const link  = document.createElement('link');
+  link.rel  = 'stylesheet';
+  link.type = 'text/css';
+  link.href = './styles/darkmode.css';
+  link.media = 'all';
+  el.addEventListener('click', function (){
+    if (clicked === false) {
+      head.appendChild(link);
+      clicked = true;
+    } else {
+      const linkNode = document.getElementsByTagName('link')[3];
+      console.log(linkNode)
+      linkNode.parentNode.removeChild(linkNode)
+      clicked = false;
+    }
+  })
+}
+
+
 window.onload = function () {
   displayList();
   goUp();
   clicked();
   magicalPops();
+  darkMode()
 };

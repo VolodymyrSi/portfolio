@@ -48,6 +48,11 @@ header {
 .siteLogo {
   /* this changes the height of the nav bar */
   height: 4em;
+  visibility: inherit;
+}
+
+.siteLogo:hover {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 576px) {
