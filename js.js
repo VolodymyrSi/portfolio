@@ -89,11 +89,13 @@ function darkMode() {
     if (clicked === false) {
       head.appendChild(link);
       clicked = true;
+      el.src = "resources/logo_transparent.png"
     } else {
       const linkNode = document.getElementsByTagName('link')[3];
       console.log(linkNode)
       linkNode.parentNode.removeChild(linkNode)
       clicked = false;
+      el.src = "resources/logo.png"
     }
   })
 }

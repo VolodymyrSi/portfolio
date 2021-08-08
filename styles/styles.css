@@ -42,6 +42,7 @@ header {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   z-index: 7;
+  height: 4em;
 }
 
 
