@@ -8,7 +8,7 @@
       transform: translateY(0) translateX(0);
     }
     100% {
-      transform: translateY(-100px) translateX(100px);
+      transform: translateY(-100px) translateX(50px);
     }
   }
   
@@ -20,7 +20,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(100px);
+      transform: translateX(50px);
     }
   }
   
@@ -32,7 +32,7 @@
       transform: translateY(0) translateX(0);
     }
     100% {
-      transform: translateY(100px) translateX(100px);
+      transform: translateY(100px) translateX(50px);
     }
   }
   
@@ -44,7 +44,7 @@
       transform: translateY(0) translateX(0);
     }
     100% {
-      transform: translateY(-50px) translateX(100px);
+      transform: translateY(-50px) translateX(50px);
     }
   }
   
@@ -56,7 +56,7 @@
       transform: translateY(0) translateX(0);
     }
     100% {
-      transform: translateY(50px) translateX(100px);
+      transform: translateY(50px) translateX(50px);
     }
   }
   
@@ -68,7 +68,7 @@
   }
   @keyframes slide-tr-back {
     0% {
-      transform: translateY(-100px) translateX(100px);
+      transform: translateY(-100px) translateX(50px);
     }
     100% {
       transform: translateY(0) translateX(0);
@@ -80,7 +80,7 @@
     }
     @keyframes slide-right-back {
       0% {
-        transform: translateX(100px);
+        transform: translateX(50px);
       }
       100% {
         transform: translateX(0);
@@ -92,7 +92,7 @@
     }
     @keyframes slide-br-back {
       0% {
-        transform: translateY(100px) translateX(100px);
+        transform: translateY(100px) translateX(50px);
       }
       100% {
         transform: translateY(0) translateX(0);
@@ -104,7 +104,7 @@
     }
     @keyframes slide-ttr-back {
       0% {
-        transform: translateY(-50px) translateX(100px);
+        transform: translateY(-50px) translateX(50px);
       }
       100% {
         transform: translateY(0) translateX(0);
@@ -116,7 +116,7 @@
     }
     @keyframes slide-bbr-back {
       0% {
-        transform: translateY(50px) translateX(100px);
+        transform: translateY(50px) translateX(50px);
       }
       100% {
         transform: translateY(0) translateX(0);
