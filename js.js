@@ -94,7 +94,7 @@ function darkMode() {
       text.style.display = "none";
     } else {
       let linkNode = document.getElementsByTagName("link")[4];
-      console.log(linkNode)
+      console.log(linkNode);
       linkNode.parentNode.removeChild(linkNode);
       clicked = false;
       el.src = "resources/logo.png";
