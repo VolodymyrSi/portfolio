@@ -318,7 +318,7 @@ header nav li a:hover {
   }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 430px) {
   .contactContainer {
     top: 51.8%;
     left: 3.5%;
