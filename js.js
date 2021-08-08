@@ -78,35 +78,34 @@ function magicalPops() {
 
 function darkMode() {
   let clicked = false;
-  let el = document.getElementById('logo')
-  const head  = document.getElementsByTagName('head')[0];
-  const link  = document.createElement('link');
-  const text = document.getElementById('clickTheLamp');
-  link.rel  = 'stylesheet';
-  link.type = 'text/css';
-  link.href = './styles/darkmode.css';
-  link.media = 'all';
-  el.addEventListener('click', function (){
+  let el = document.getElementById("logo");
+  const head = document.getElementsByTagName("head")[0];
+  const link = document.createElement("link");
+  const text = document.getElementById("clickTheLamp");
+  link.rel = "stylesheet";
+  link.type = "text/css";
+  link.href = "./styles/darkmode.css";
+  link.media = "all";
+  el.addEventListener("click", function () {
     if (clicked === false) {
       head.appendChild(link);
       clicked = true;
-      el.src = "resources/logo_transparent.png"
+      el.src = "resources/logo_transparent.png";
       text.style.display = "none";
     } else {
-      const linkNode = document.getElementsByTagName('link')[3];
+      let linkNode = document.getElementsByTagName("link")[4];
       console.log(linkNode)
-      linkNode.parentNode.removeChild(linkNode)
+      linkNode.parentNode.removeChild(linkNode);
       clicked = false;
-      el.src = "resources/logo.png"
+      el.src = "resources/logo.png";
     }
-  })
+  });
 }
-
 
 window.onload = function () {
   displayList();
   goUp();
   clicked();
   magicalPops();
-  darkMode()
+  darkMode();
 };

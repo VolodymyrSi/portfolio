@@ -45,7 +45,6 @@ header {
   height: 4em;
 }
 
-
 .siteLogo {
   /* this changes the height of the nav bar */
   height: 4em;
@@ -89,9 +88,8 @@ header nav li a:hover {
   position: relative;
 }
 
-
 .darkModeContainer {
-  display:flex;
+  display: flex;
   align-items: flex-end;
 }
 
@@ -102,10 +100,10 @@ header nav li a:hover {
 }
 
 @media only screen and (max-width: 576px) {
-  .siteLogo{
+  .siteLogo {
     max-height: 30%;
   }
-  #clickTheLamp{
+  #clickTheLamp {
     display: none;
   }
 }
@@ -170,7 +168,7 @@ header nav li a:hover {
 }
 
 @media only screen and (max-width: 576px) {
-  .projects_container{
+  .projects_container {
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -209,7 +207,7 @@ header nav li a:hover {
 }
 
 @media only screen and (max-width: 576px) {
-  .technology{
+  .technology {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 2em;
@@ -314,7 +312,7 @@ header nav li a:hover {
 }
 
 @media only screen and (max-width: 576px) {
-  .contactContainer{
+  .contactContainer {
     top: 51.2%;
     left: 3%;
   }
