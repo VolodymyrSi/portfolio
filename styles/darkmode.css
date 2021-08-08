@@ -1,0 +1,92 @@
+/* general style and fonts */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #E1E1E1;
+}
+
+a,
+p,
+li {
+  color: #cdcdcd;
+}
+
+body {
+  background-color: #3F3F3F;
+}
+
+/* header */
+
+.siteLogo {
+    visibility: hidden;
+}
+
+header {
+  background-color: #433C4D ;
+  border-bottom: solid 1px #B1B2BD;
+}
+
+
+header nav li a {
+  color: #cdcdcd;
+}
+
+header nav li a:hover {
+  background-color: darkred;
+}
+
+.project1pic {
+  background: linear-gradient(to right, #433C4D, #B1B2BD);
+}
+
+.project2pic {
+  background: linear-gradient(#433C4D, #B1B2BD);
+}
+
+.project3pic {
+  background: linear-gradient(to left, #433C4D, #B1B2BD);
+}
+
+/* Section 3 - About */
+
+
+.button {
+  /*Reset*/
+  color: #fff;
+
+
+  /*Magic*/
+  background-image: linear-gradient(#6C6C6C, #baa5d9);
+
+}
+
+/* Button to go up */
+
+.arrow-up {
+  border-bottom: 3.464em solid #625772;
+
+}
+
+.arrow-up p:hover {
+  color: darkcyan;
+}
+
+.arrow-up p {
+  color: cornsilk;
+}
+
+/* contact me button */
+
+.contactMeButton {
+
+  background-color: #B3B3B3;
+
+}
+
+.contactMeButton:hover {
+  background-color: #625772;
+}
