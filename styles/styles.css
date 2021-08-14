@@ -6,14 +6,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", Sans-Serif;
+  font-family: 'Roboto', Sans-Serif;
   color: #002627;
 }
 
 a,
 p,
 li {
-  font-family: "Lora", Serif;
+  font-family: 'Lora', Serif;
   color: #002627;
 }
 
@@ -160,11 +160,21 @@ header nav li a:hover {
   flex-wrap: wrap;
 }
 
+
 .project_item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+
+.project1pic img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
 /* change breakpoints to 720px */
 @media only screen and (max-width: 576px) {
   .projects_container {
@@ -182,11 +192,13 @@ header nav li a:hover {
   height: 20em;
   width: 15em;
   border-radius: 1em;
+  overflow: hidden;
+  border: 3px solid #625772;
 }
 
-.project1pic {
+/* .project1pic {
   background: linear-gradient(to right, darkviolet, deeppink);
-}
+} */
 
 .project2pic {
   background: linear-gradient(darkviolet, deeppink);
@@ -281,7 +293,7 @@ header nav li a:hover {
 .contactMeButton {
   position: fixed;
   top: 50%;
-  background-image: url("../resources/email.png");
+  background-image: url('../resources/email.png');
   background-size: contain;
   height: 3em;
   width: 3em;
