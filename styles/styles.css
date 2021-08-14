@@ -184,6 +184,8 @@ header nav li a:hover {
 
 .project_item p {
   margin-top: 2em;
+  width: 25em;
+  text-align: justify;
 }
 
 .project1pic,
