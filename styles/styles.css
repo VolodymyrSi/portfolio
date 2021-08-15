@@ -154,7 +154,7 @@ header nav li a:hover {
 
 /* Section 2 - Portfolio */
 
-.projects_container {
+.projectsContainer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -162,7 +162,7 @@ header nav li a:hover {
 }
 
 
-.project_item {
+.projectItem {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -171,7 +171,7 @@ header nav li a:hover {
 
 /* change breakpoints to 720px */
 @media only screen and (max-width: 576px) {
-  .projects_container {
+  .projectsContainer {
     flex-direction: row;
   }
 }
@@ -181,13 +181,13 @@ header nav li a:hover {
   object-fit: cover;
 }
 
-.project_item p {
+.projectItem p {
   margin-top: 2em;
   width: 20em;
   text-align: justify;
 }
 
-.project_item:nth-child(2) p, .project_item:nth-child(3) p {
+.projectItem:nth-child(2) p, .projectItem:nth-child(3) p {
   text-align: center;
 }
 
@@ -203,11 +203,11 @@ header nav li a:hover {
   background: linear-gradient(to right, darkviolet, deeppink);
 } */
 
-.projects_container >:nth-child(2) >:nth-child(1) {
+.projectsContainer >:nth-child(2) >:nth-child(1) {
   background: linear-gradient(darkviolet, deeppink);
 }
 
-.projects_container >:nth-child(3) >:nth-child(1) {
+.projectsContainer >:nth-child(3) >:nth-child(1) {
   background: linear-gradient(to left, darkviolet, deeppink);
 }
 
