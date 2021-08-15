@@ -1,17 +1,26 @@
+// function displayList() {
+//   let el = document.getElementById("trigger");
+//   let isVisible = false;
+//   el.addEventListener("click", function () {
+//     let list = document.getElementById("list");
+//     if (isVisible) {
+//       list.style.display = "none";
+//       isVisible = false;
+//     } else {
+//       list.style.display = "block";
+//       isVisible = true;
+//     }
+//   });
+// }
+
 function displayList() {
-  let el = document.getElementById("trigger");
-  let isVisible = false;
+  const el = document.getElementById("trigger");
+  const list = document.getElementById("list");
   el.addEventListener("click", function () {
-    let list = document.getElementById("list");
-    if (isVisible) {
-      list.style.display = "none";
-      isVisible = false;
-    } else {
-      list.style.display = "block";
-      isVisible = true;
-    }
+    list.classList.toggle('active')
   });
 }
+
 
 // Arrow up
 

@@ -152,6 +152,10 @@ header nav li a:hover {
   display: none;
 }
 
+.listLove.active {
+  display: inline-block;
+}
+
 /* Section 2 - Portfolio */
 
 .projectsContainer {
@@ -203,11 +207,11 @@ header nav li a:hover {
   background: linear-gradient(to right, darkviolet, deeppink);
 } */
 
-.projectsContainer >:nth-child(2) >:nth-child(1) {
+.projectItem:nth-child(2) >:nth-child(1) {
   background: linear-gradient(darkviolet, deeppink);
 }
 
-.projectsContainer >:nth-child(3) >:nth-child(1) {
+.projectItem:nth-child(3) >:nth-child(1) {
   background: linear-gradient(to left, darkviolet, deeppink);
 }
 
