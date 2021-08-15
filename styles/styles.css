@@ -169,18 +169,16 @@ header nav li a:hover {
 }
 
 
-.project1pic img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-
 /* change breakpoints to 720px */
 @media only screen and (max-width: 576px) {
   .projects_container {
     flex-direction: row;
   }
+}
+.projectPic:nth-child(1) img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .project_item p {
@@ -193,9 +191,7 @@ header nav li a:hover {
   text-align: center;
 }
 
-.project1pic,
-.project2pic,
-.project3pic {
+.projectPic {
   height: 20em;
   width: 15em;
   border-radius: 1em;
@@ -207,11 +203,11 @@ header nav li a:hover {
   background: linear-gradient(to right, darkviolet, deeppink);
 } */
 
-.project2pic {
+.projects_container >:nth-child(2) >:nth-child(1) {
   background: linear-gradient(darkviolet, deeppink);
 }
 
-.project3pic {
+.projects_container >:nth-child(3) >:nth-child(1) {
   background: linear-gradient(to left, darkviolet, deeppink);
 }
 
