@@ -38,11 +38,11 @@ header nav li a:hover {
   background: linear-gradient(to right, #433c4d, #b1b2bd);
 } */
 
-.projectItem:nth-child(2) >:nth-child(1){
+.projectItem:nth-child(2) > :nth-child(1) {
   background: linear-gradient(#433c4d, #b1b2bd);
 }
 
-.projectItem:nth-child(3) >:nth-child(1) {
+.projectItem:nth-child(3) > :nth-child(1) {
   background: linear-gradient(to left, #433c4d, #b1b2bd);
 }
 
