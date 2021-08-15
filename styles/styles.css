@@ -158,6 +158,7 @@ header nav li a:hover {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-left: 2em;
 }
 
 
@@ -184,8 +185,12 @@ header nav li a:hover {
 
 .project_item p {
   margin-top: 2em;
-  width: 25em;
+  width: 20em;
   text-align: justify;
+}
+
+.project_item:nth-child(2) p, .project_item:nth-child(3) p {
+  text-align: center;
 }
 
 .project1pic,
