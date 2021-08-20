@@ -15,18 +15,18 @@ function goUp() {
   });
 }
 
-function clicked() {
-  let el = document.getElementById('contactMeButton');
-  // change to css :active
-  el.addEventListener('mousedown', function () {
-    el.style.height = '2.8em';
-    el.style.width = '2.8em';
-  });
-  el.addEventListener('mouseup', function () {
-    el.style.height = '3em';
-    el.style.width = '3em';
-  });
-}
+// function clicked() {
+//   let el = document.getElementById('contactMeButton');
+//   // change to css :active
+//   el.addEventListener('mousedown', function () {
+//     el.style.height = '2.8em';
+//     el.style.width = '2.8em';
+//   });
+//   el.addEventListener('mouseup', function () {
+//     el.style.height = '3em';
+//     el.style.width = '3em';
+//   });
+// }
 
 function magicalPops() {
   let el = document.getElementById('contactMeButton');
@@ -100,7 +100,7 @@ function darkMode() {
 window.onload = function () {
   displayList();
   goUp();
-  clicked();
+  // clicked();
   magicalPops();
   darkMode();
 };

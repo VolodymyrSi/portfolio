@@ -268,7 +268,7 @@ header nav li a:hover {
 
 /* Button to go up */
 
-.arrow-up {
+.arrowUp {
   width: 0;
   height: 0;
   border-left: 4em solid transparent;
@@ -281,7 +281,7 @@ header nav li a:hover {
   align-items: flex-start;
 }
 
-.arrow-up p:hover {
+.arrowUp p:hover {
   cursor: pointer;
   color: darkcyan;
   font-size: larger;
@@ -290,7 +290,7 @@ header nav li a:hover {
   transition-duration: 0.2s;
 }
 
-.arrow-up p {
+.arrowUp p {
   color: cornsilk;
 }
 
@@ -313,6 +313,10 @@ header nav li a:hover {
 .contactMeButton:hover {
   background-color: #625772;
   border-radius: 1.45em;
+}
+
+.contactMeButton:active {
+  transform: scale(0.95);
 }
 
 /* contact container */
