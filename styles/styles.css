@@ -308,6 +308,7 @@ header nav li a:hover {
   margin-left: 0.5em;
   background-color: #cdcdcd;
   border-radius: 50%;
+
 }
 
 .contactMeButton:hover {
@@ -330,6 +331,11 @@ header nav li a:hover {
   grid-template-columns: 1em;
   grid-template-rows: 1em;
   /* display: none; */
+}
+
+.contactContainer a {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
 }
 
 @media only screen and (max-width: 576px) {
